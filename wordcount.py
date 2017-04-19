@@ -14,5 +14,3 @@ def words(param):
         except:
             result[my_word] = proper_words.count(my_word)
     return result
-
-print(words('car : carpet as java : javascript!!&@$%^&'))
